@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.sim/sim_1/impl/func/xsim/testbench_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module adder_0
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-311] analyzing module flopr
+INFO: [VRFC 10-311] analyzing module pipelineregD
+INFO: [VRFC 10-311] analyzing module pipelineregE
+INFO: [VRFC 10-311] analyzing module pipelineregM
+INFO: [VRFC 10-311] analyzing module pipelineregW
+INFO: [VRFC 10-311] analyzing module riscvsingle
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/computador/Downloads/esrg-v-verilog/testbench/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

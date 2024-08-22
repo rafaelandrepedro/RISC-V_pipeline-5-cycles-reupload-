@@ -1,0 +1,44 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/computador/Desktop/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab -wto 73a7a3c9cbda44de9ae17cc0547b9bdc --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot testbench_func_impl xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.MUXF8
+Compiling module xil_defaultlib.dmem
+Compiling module unisims_ver.RAM32M
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.latchsre_ldce
+Compiling module unisims_ver.LDCE
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.adder
+Compiling module unisims_ver.LUT4
+Compiling module xil_defaultlib.adder_0
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.flopr
+Compiling module xil_defaultlib.datapath
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module xil_defaultlib.pipelineregD
+Compiling module xil_defaultlib.pipelineregE
+Compiling module xil_defaultlib.pipelineregM
+Compiling module xil_defaultlib.pipelineregW
+Compiling module xil_defaultlib.riscvsingle
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_func_impl

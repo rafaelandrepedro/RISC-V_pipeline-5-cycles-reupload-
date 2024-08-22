@@ -1,0 +1,147 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z010clg400-1",
+      "name": "hblock",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2"
+    },
+    "design_tree": {
+      "imem_1": "",
+      "riscvsingle_0": "",
+      "dmem_0": "",
+      "devices_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "reset_0": {
+        "direction": "I"
+      },
+      "LEDs_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "pushbuttons_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "switches_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "imem_1": {
+        "vlnv": "user.org:user:imem:1.1",
+        "xci_name": "hblock_imem_1_0"
+      },
+      "riscvsingle_0": {
+        "vlnv": "user.org:user:riscvsingle:1.0",
+        "xci_name": "hblock_riscvsingle_0_0"
+      },
+      "dmem_0": {
+        "vlnv": "user.org:user:dmem:1.1",
+        "xci_name": "hblock_dmem_0_0"
+      },
+      "devices_0": {
+        "vlnv": "user.org:user:devices:1.1",
+        "xci_name": "hblock_devices_0_0"
+      }
+    },
+    "nets": {
+      "riscvsingle_0_PC": {
+        "ports": [
+          "riscvsingle_0/PC",
+          "imem_1/a"
+        ]
+      },
+      "imem_1_rd": {
+        "ports": [
+          "imem_1/rd",
+          "riscvsingle_0/Instr"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "riscvsingle_0/reset",
+          "dmem_0/reset"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "riscvsingle_0/clk",
+          "dmem_0/clk"
+        ]
+      },
+      "riscvsingle_0_WriteDataM": {
+        "ports": [
+          "riscvsingle_0/WriteDataM",
+          "dmem_0/wd"
+        ]
+      },
+      "riscvsingle_0_StrType": {
+        "ports": [
+          "riscvsingle_0/StrType",
+          "dmem_0/LdStrType"
+        ]
+      },
+      "riscvsingle_0_ALUResultM": {
+        "ports": [
+          "riscvsingle_0/ALUResultM",
+          "dmem_0/a"
+        ]
+      },
+      "riscvsingle_0_MemWriteM": {
+        "ports": [
+          "riscvsingle_0/MemWriteM",
+          "dmem_0/we"
+        ]
+      },
+      "devices_1_GPIOInterfaceIn": {
+        "ports": [
+          "devices_0/GPIOInterfaceIn",
+          "dmem_0/GPIOInterfaceIn"
+        ]
+      },
+      "dmem_0_rd": {
+        "ports": [
+          "dmem_0/rd",
+          "riscvsingle_0/ReadDataM"
+        ]
+      },
+      "dmem_0_GPIOInterfaceOut": {
+        "ports": [
+          "dmem_0/GPIOInterfaceOut",
+          "devices_0/GPIOInterfaceOut"
+        ]
+      },
+      "devices_0_LEDs": {
+        "ports": [
+          "devices_0/LEDs",
+          "LEDs_0"
+        ]
+      },
+      "pushbuttons_0_1": {
+        "ports": [
+          "pushbuttons_0",
+          "devices_0/pushbuttons"
+        ]
+      },
+      "switches_0_1": {
+        "ports": [
+          "switches_0",
+          "devices_0/switches"
+        ]
+      }
+    }
+  }
+}

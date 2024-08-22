@@ -1,0 +1,1150 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May 31 20:01:50 2022
+# Process ID: 23893
+# Current directory: /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1
+# Command line: vivado -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top.vdi
+# Journal file: /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:port' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_mrmac:mrmac_statistics_ports:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_statistics_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_statistics_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_mrmac:mrmac_statistics_ports_int:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_statistics_ports_int.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_statistics_ports_int.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_mrmac:mrmac_ptp_ports_int:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ptp_ports_int.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_ptp_ports_int.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_mrmac:mrmac_fec_ports_int:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_fec_ports_int.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_fec_ports_int.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_mrmac:mrmac_flex_ports_int:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_flex_ports_int.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_flex_ports_int.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_mrmac:mrmac_fec_ports:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_fec_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_fec_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_mrmac:mrmac_ctrl_ports_int:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ctrl_ports_int.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_ctrl_ports_int.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_mrmac:mrmac_ptp_ports:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ptp_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_ptp_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_mrmac:mrmac_ctrl_ports:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ctrl_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_ctrl_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_mrmac:mrmac_flex_ports:2.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_flex_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_1/interfaces/mrmac_flex_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_mgmt:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_mgmt.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_mgmt.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_msix_int.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_msix_int.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_pl_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pl_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_pl_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_pm_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_pm_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_pm_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pcie_id.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_pcie_id.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_external_msix:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_ext_msix.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_ext_msix.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_external_msix_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_ext_msix_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_ext_msix_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_pm:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_pm.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_pm.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_pcie_id_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pcie_id_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_pcie_id_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_mgmt_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_mgmt_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_mgmt_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_msix_external:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_msix.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_msix.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_control_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_control_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_control_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_status_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_status_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_status_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_status:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_status.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_status.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_msix_int_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_msix_int_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_msix_external_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_msix_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_msix_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_control.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_cfg_control.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_pl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_pl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_tx_eq:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_eq.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_eq.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_tx:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_tx_drive:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_drive.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_drive.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_status:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_status.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_status.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_tx_eq_3rd_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_eq_3rd_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_eq_3rd_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_rx:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_tx_eq_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_eq_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_eq_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_rx_eq_3rd:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_eq_3rd.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_eq_3rd.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_rx_margining:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_margining.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_margining.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_rx_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_tx_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_status_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_status_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_status_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_command_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_command_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_command_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_command:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_command.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_command.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_rx_eq_3rd_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_eq_3rd_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_eq_3rd_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_tx_drive_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_drive_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_drive_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_phy:phy_mac_tx_eq_3rd:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_eq_3rd.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_eq_3rd.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_phy:phy_mac_rx_margining_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_margining_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_margining_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_gt_if_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_gt_if_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_gt_if_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:h2c_byp_in_st_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/h2c_byp_in_st_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_st_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:s_axis_c2h_cmpt:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/s_axis_cmpt.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_cmpt.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:m_axis_h2c_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/m_axis_h2c_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/m_axis_h2c_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_gt_if:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_gt_if.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:h2c_byp_out:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/h2c_byp_out.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_out.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pcie_id.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_pcie_id.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:tm_dsc_sts_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/tm_dsc_sts_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/tm_dsc_sts_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:s_axis_c2h_cmpt_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/s_axis_cmpt_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_cmpt_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:h2c_byp_out_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/h2c_byp_out_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_out_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:tm_dsc_sts:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/tm_dsc_sts.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/tm_dsc_sts.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:m_axis_h2c:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/m_axis_h2c.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/m_axis_h2c.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_pcie_id_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pcie_id_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_pcie_id_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:h2c_byp_in_st:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/h2c_byp_in_st.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_st.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_cfg_control_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_control_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_cfg_control_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:dsc_crdt_in_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/dsc_crdt_in_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/dsc_crdt_in_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_qdma:s_axis_c2h_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/s_axis_c2h_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_c2h_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:s_axis_c2h:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/s_axis_c2h.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_c2h.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_control.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_cfg_control.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_qdma:dsc_crdt_in:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/dsc_crdt_in.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/dsc_crdt_in.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_ip_to_pins:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_ip_to_pins.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_rx_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_data_rx_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_ctrl_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_ctrl_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_fab_to_ip:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_fab_to_ip.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_fab_to_ip_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_fab_to_ip_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_rx:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_data_rx.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_tx:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_data_tx.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_ip_to_pins_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_ip_to_pins_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_bidir:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_data_bidir.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_tx_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_data_tx_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_ctrl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_ctrl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_bidir_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_4/interfaces/hssio_data_bidir_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_gt_if_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_gt_if_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie4_gt_if_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_us_plus_transceiver_debug_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie4_us_plus_transceiver_debug_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:pcie_debug:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie_debug.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie_debug.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_gt_if:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_gt_if.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie4_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:xdma_debug_ports_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/xdma_debug_ports_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/xdma_debug_ports_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:pcie3_us_transceiver_debug_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_transceiver_debug_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_transceiver_debug_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_gt_if_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_gt_if_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:dsc_bypass:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/dsc_bypass.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/dsc_bypass.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_gt_if.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:int_shared_logic_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_int_shared_logic_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_int_shared_logic_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_transceiver_debug.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_transceiver_debug.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:xdma_debug_ports:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/xdma_debug_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/xdma_debug_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_7x_transceiver_debug.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_7x_transceiver_debug.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:xdma_status_ports_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/xdma_status_ports_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/xdma_status_ports_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:dsc_bypass_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/dsc_bypass_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/dsc_bypass_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:xdma_status_ports:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/xdma_status_ports.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/xdma_status_ports.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_ext_gtcom.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:pcie_debug_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie_debug_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie_debug_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie4_usp_int_gtcom_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie4_usp_int_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug_rtl:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_7x_transceiver_debug_rtl.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_7x_transceiver_debug_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_xdma:int_shared_logic:1.0' found within IP repository '/home/computador'.
+File in use: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/pcie3_us_int_shared_logic.xml
+File ignored: /home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_int_shared_logic.xml
+INFO: [Common 17-14] Message 'IP_Flow 19-1694' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:abstractionDefinition' : Bad end of element
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: see 'spirit:vendor' : Mandatory element missing or unexpected element found
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/computador'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/home/computador' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1'.)
+WARNING: [IP_Flow 19-3685] Ignored loading user repository '/home/computador/Downloads/esrg-v-verilog'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:riscvsingle:1.1'. The one found in IP location '/home/computador' will take precedence over the same IP in location /home/computador/Downloads/esrg-v-verilog/rvsingle
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:dmem:1.0'. The one found in IP location '/home/computador/Downloads/esrg-v-verilog' will take precedence over the same IP in locations: 
+   /home/computador/Downloads/esrg-v-verilog/dmem
+   /home/computador/Documents/esrg-v-verilog SC/esrg-v-verilog
+   /home/computador/Documents/esrg-v-verilog SC/esrg-v-verilog/dmem
+   /home/computador/Documents/esrg-v-verilog
+   /home/computador/Documents/esrg-v-verilog/dmem
+   /home/computador/Documents/SingleCycle/esrg-v-verilog SC/esrg-v-verilog
+   /home/computador/Documents/SingleCycle/esrg-v-verilog SC/esrg-v-verilog/dmem
+   /home/computador/.cache/.fr-1chGyz/esrg-v-verilog/dmem
+   /home/computador/Desktop/Xilinx/singlecycle/singlecycle.srcs/sources_1/imports/esrg-v-verilog
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:devices:1.1'. The one found in IP location '/home/computador/Downloads/esrg-v-verilog/devices' will take precedence over the same IP in location /home/computador/Downloads/esrg-v-verilog/esrg-v-verilog/devices
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:imem:1.0'. The one found in IP location '/home/computador/Downloads/esrg-v-verilog/imem' will take precedence over the same IP in locations: 
+   /home/computador/Documents/esrg-v-verilog SC/esrg-v-verilog/imem
+   /home/computador/Documents/esrg-v-verilog/imem
+   /home/computador/Documents/SingleCycle/esrg-v-verilog SC/esrg-v-verilog/imem
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:riscvsingle:1.0'. The one found in IP location '/home/computador/Downloads/esrg-v-verilog/esrg-v-verilog/rvsingle' will take precedence over the same IP in locations: 
+   /home/computador/Downloads/esrg-v-verilog2/esrg-v-verilog/rvsingle
+   /home/computador/Documents/esrg-v-verilog SC/esrg-v-verilog/rvsingle
+   /home/computador/Documents/esrg-v-verilog/rvsingle
+   /home/computador/Documents/SingleCycle/esrg-v-verilog SC/esrg-v-verilog/rvsingle
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_cuisr:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/shell_utils_cuisr_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/shell_utils_cuisr_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/shell_utils_cuisr_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:sim_embedded_scheduler_sw:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:sim_accel_monitor:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_accel_monitor_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_accel_monitor_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_accel_monitor_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:emulation_profiler_core:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/emulation_profiler_core_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/emulation_profiler_core_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/emulation_profiler_core_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:sim_xdma:3.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_xdma_v3_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_xdma_v3_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_xdma_v3_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:sdaccel_generic_pcie:2.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sdaccel_generic_pcie_v2_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sdaccel_generic_pcie_v2_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sdaccel_generic_pcie_v2_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:xtlm_simple_memory:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/xtlm_simple_memory_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/xtlm_simple_memory_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/xtlm_simple_memory_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:sim_stm:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_stm_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_stm_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_stm_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:me_config:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/me_config_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/me_config_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/me_config_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:sim_stma:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_stma_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_stma_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_stma_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:sdx_aximm_wv:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sdx_aximm_wv_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sdx_aximm_wv_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sdx_aximm_wv_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:slave_stream:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/slave_stream_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/slave_stream_1.0
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/docs/labs/lab8/lab8_4/src/iprepo/slave_stream_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/slave_stream_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:sim_xdma:2.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_xdma_2.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_xdma_2.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_xdma_2.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:sim_copy_kernel:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_copy_kernel' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_copy_kernel
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_copy_kernel
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx:hls:CuDmaController:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/cudma' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/cudma
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/cudma
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:sim_stream2mm:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_stream2mm_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_stream2mm_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_stream2mm_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:Debug:sim_axi_perf_mon:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_axi_perf_mon_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_axi_perf_mon_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_axi_perf_mon_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:embedded_scheduler_hw:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/embedded_scheduler_hw' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/embedded_scheduler_hw
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/embedded_scheduler_hw
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:sim_embedded_scheduler_sw:2.1'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v2_1' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v2_1
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v2_1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:sim_embedded_scheduler_sw:2.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v2_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v2_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_embedded_scheduler_sw_v2_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:sim_aximm_perf_mon:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_aximm_perf_mon_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_aximm_perf_mon_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_aximm_perf_mon_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:Debug:sim_sdx_accel_monitor:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_sdx_accel_monitor_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_sdx_accel_monitor_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_sdx_accel_monitor_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_embedded_scheduler_hw:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/shell_utils_embedded_scheduler_hw_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/shell_utils_embedded_scheduler_hw_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/shell_utils_embedded_scheduler_hw_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:xtlm_simple_interconnect:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/xtlm_simple_interconnect_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/xtlm_simple_interconnect_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/xtlm_simple_interconnect_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:systemc_synchronizer:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/systemc_synchronizer' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/systemc_synchronizer
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/systemc_synchronizer
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:xilinx:xtlm_simple_interconnect:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/legacy/xtlm_simple_interconnect_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/legacy/xtlm_simple_interconnect_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/legacy/xtlm_simple_interconnect_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:Debug:sim_axi_stream_perf_mon:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_axi_stream_perf_mon_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_axi_stream_perf_mon_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_axi_stream_perf_mon_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'user.org:user:sim_mm2stream:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_mm2stream_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_mm2stream_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_mm2stream_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:sim_ddrx_awidth_converter:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_ddrx_awidth_converter_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_ddrx_awidth_converter_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_ddrx_awidth_converter_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:sim_axis_perf_mon:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_axis_perf_mon_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_axis_perf_mon_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_axis_perf_mon_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:sim_ddr:3.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_ddr_v3_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_ddr_v3_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_ddr_v3_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:sim_aximm_master:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_aximm_master_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_aximm_master_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_aximm_master_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:crts_ps:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/crts_ps_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/crts_ps_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/crts_ps_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:sim_axilite_slave:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_axilite_slave_1.0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_axilite_slave_1.0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_axilite_slave_1.0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:sim_ddr:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/sim_ddr_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/sim_ddr_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/sim_ddr_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_cudma_controller:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/shell_utils_cudma_controller_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/shell_utils_cudma_controller_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/shell_utils_cudma_controller_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx:hls:cuisr:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/emulation/hw_em/ip_repo/cuisr' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/emulation/hw_em/ip_repo/cuisr
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/emulation/hw_em/ip_repo/cuisr
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_slave_bridge:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_slave_bridge_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_slave_bridge_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_slave_bridge_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:signal.param:reset:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_reset_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_reset_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_reset_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:snoc:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/snoc_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/snoc_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/snoc_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:signal.param:clock:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_clock_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_clock_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_clock_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:diff_clock:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_diff_clock_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_diff_clock_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_diff_clock_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:ddrx:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_ddrx_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_ddrx_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_ddrx_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:onsg_fec:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_onsg_fec_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_onsg_fec_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_onsg_fec_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axifull_bridge:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axifull_bridge_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axifull_bridge_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axifull_bridge_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:acemm:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_acemm_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_acemm_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_acemm_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:axis:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_axis_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_axis_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_axis_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:inis:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_inis_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_inis_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_inis_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:module_ref.param:block_container:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/block_container_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/block_container_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/block_container_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_terminator:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_terminator_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_terminator_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_terminator_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:signal.param:interrupt:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_interrupt_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_interrupt_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_interrupt_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:aximm:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_aximm_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_aximm_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_aximm_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_block:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_block_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_block_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_block_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:jtag:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_jtag_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_jtag_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_jtag_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_smithwaterman:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_smithwaterman_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_smithwaterman_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_smithwaterman_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:bram:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_bram_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_bram_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_bram_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_addone64:1.1'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_addone64_v1_1' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_addone64_v1_1
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_addone64_v1_1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:ddr4:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_ddr4_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_ddr4_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_ddr4_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_addone:1.1'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_addone_v1_1' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_addone_v1_1
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_addone_v1_1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_master_bridge:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_master_bridge_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_master_bridge_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_master_bridge_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:signal.param:clockenable:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_clock_enable_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_clock_enable_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_clock_enable_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axi_fpmmult256x256:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axi_mmult256x256_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_mmult256x256_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axi_mmult256x256_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:ocl_axilite_bridge:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/ocl_axilite_bridge_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axilite_bridge_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/ocl_axilite_bridge_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:mbinterrupt:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_mbinterrupt_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_mbinterrupt_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_mbinterrupt_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_noc:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/axis_noc_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/axis_noc_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/axis_noc_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:util_ds_buf:2.1'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/util_ds_buf_v2_1' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/util_ds_buf_v2_1
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/util_ds_buf_v2_1
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:interface.param:inimm:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/intf_inimm_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_inimm_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/intf_inimm_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_noc:1.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vitis/2019.2/cardano/data/rsb/iprepos/axi_noc_v1_0' will take precedence over the same IP in locations: 
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/axi_noc_v1_0
+   /home/computador/Desktop/Xilinx/Vivado/2019.2/data/rsb/iprepos/axi_noc_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_axis_n_to_m:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_axis_n_to_m' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_version:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_version' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_offset_capability:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_offset_capability' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_crosspoint:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_crosspoint' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_mpvdma:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_mpvdma' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_colourspace:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_colourspace' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_vp:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_vp' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_resizer:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_resizer' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_interlacer:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_interlacer' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_combiner:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_combiner' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_chroma:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_chroma' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_noise_filter:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_noise_filter' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_cropper:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_cropper' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_chroma_420_to_422:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_chroma_420_to_422' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_chroma_down:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_chroma_down' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_common:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_common' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_gamma_lut:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_gamma_lut' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_axis_fifo_mon:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_axis_fifo_mon' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'omnitek.tv:ip:omni_deint:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Omnitek/omni_deint' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'topicembeddedproducts.com:dyplo:dyplo_axi_full:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Topic/dyplo_axi_full' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'nwlogic.com:ip:NWL_AXI_DMA:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/nwlogic/NWL_AXI_DMA' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'soctechnologies.com:ip:h264_4k_decoder:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/soctech/h264_decoder_4k' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'soctechnologies.com:ip:h264_hd_decoder:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/soctech/h264_decoder_hd' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'soctechnologies.com:ip:h265_hd_encoder:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/soctech/h265_encoder_hd' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'soctechnologies.com:ip:h264_hd_encoder:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/soctech/h264_encoder_hd' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'soctechnologies.com:ip:h264_4K_encoder:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/soctech/h264_encoder_4k' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'arm.com:CortexM:CORTEXM1_AXI:0.0'. The one found in IP location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/partners/Arm/CM1DbgAXI' will take precedence over the same IP in the Xilinx installed IP.
+INFO: [Common 17-14] Message 'IP_Flow 19-1663' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:sdsoc_trace:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vitis/2019.2/data/ip/xilinx/sdsoc_trace_v2_0/sdsoc_trace_v2_0.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/interfaces/sdsoc_trace_v2_0/sdsoc_trace_v2_0.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_processing_system7:hpstatusctrl:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/processing_system7_v5_5/hpstatusctrl.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/processing_system7_v5_5/hpstatusctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_processing_system7:fixedio:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/processing_system7_v5_5/fixedio.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/processing_system7_v5_5/fixedio.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_processing_system7:usbctrl:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/processing_system7_v5_5/usbctrl.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/processing_system7_v5_5/usbctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_ip_to_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_fab_to_ip:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_rx:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_tx:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_bidir:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_ctrl:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_startup_io:startup_io:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_quad_spi_v3_2/startup_io.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_quad_spi_v3_2/startup_io.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:shared_logic_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/shared_logic_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/shared_logic_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:statistics_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/statistics_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/statistics_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:gt_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/gt_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/gt_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:ctrl_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/ctrl_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/ctrl_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:user_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/user_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/user_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:an_lt_fec_ctrl_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/an_lt_fec_ctrl_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/an_lt_fec_ctrl_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:drp_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/drp_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/drp_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_l_ethernet:flowctrl_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/flowctrl_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/l_ethernet_v3_0/interfaces/flowctrl_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_axi_pcie:transceiver_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/axi_pcie_v2_9/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_tx_eq:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_eq.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_eq.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_mgmt:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_mgmt.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_tx:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_tx_drive:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_drive.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_drive.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_status:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_status.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_rx:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_msix_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_rx_eq_3rd:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_eq_3rd.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_eq_3rd.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_rx_margining:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_rx_margining.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_rx_margining.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pcie_id.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_external_msix:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_ext_msix.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_command:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_command.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_command.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_pm:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_pm.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie_apb3:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie_apb3.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie_apb3.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_external:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_msix.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_side_if:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_gt_side_if.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_gt_side_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_status:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_status.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_phy:phy_mac_tx_eq_3rd:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/phy_mac_tx_eq_3rd.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_phy_versal_v1_0/interfaces/phy_mac_tx_eq_3rd.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie2mgt:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie2mgt.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie2mgt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_cfg_control.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pl:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_versal_v1_0/interfaces/pcie4_pl.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:user:zynq_ftm:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/zynq_ultra_ps_e_v3_3/zynq_ftm.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/zynq_ultra_ps_e_v3_2/zynq_ftm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:user:zynq_fifo_gem:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/zynq_ultra_ps_e_v3_3/zynq_fifo_gem.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/zynq_ultra_ps_e_v3_2/zynq_fifo_gem.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:user:test:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/zynq_ultra_ps_e_v3_3/test.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/zynq_ultra_ps_e_v3_2/test.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_mrmac:mrmac_statistics_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_statistics_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_statistics_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_mrmac:mrmac_ptp_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ptp_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ptp_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_mrmac:mrmac_fec_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_fec_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_fec_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_mrmac:mrmac_flex_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_flex_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_flex_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_mrmac:mrmac_ctrl_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ctrl_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/mrmac_v1_0/interfaces/mrmac_ctrl_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_hsclk_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_hsclk_debug_v1_0/gt_hsclk_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_hsclk_debug_v1_0/gt_hsclk_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_rxmargin_intf:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_rxmargin_intf_v1_0/gt_rxmargin_intf.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_rxmargin_intf_v1_0/gt_rxmargin_intf.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_debug_v1_0/gt_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_debug_v1_0/gt_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_bufgt:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_bufgt_v1_0/gt_bufgt.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_bufgt_v1_0/gt_bufgt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:signal:gt_usrclk:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_usrclk_v1_0/gt_usrclk.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_usrclk_v1_0/gt_usrclk.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_tx_interface:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_tx_interface_v1_0/gt_tx_interface.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_tx_interface_v1_0/gt_tx_interface.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:signal:gt_outclk:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_outclk_v1_0/gt_outclk.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_outclk_v1_0/gt_outclk.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_channel_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_channel_debug_v1_0/gt_channel_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_channel_debug_v1_0/gt_channel_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_northsouth:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_northsouth_v1_0/gt_northsouth.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_northsouth_v1_0/gt_northsouth.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:interface:gt_rx_interface:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_rx_interface_v1_0/gt_rx_interface.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_rx_interface_v1_0/gt_rx_interface.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:signal:gt_refclk:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_refclk_v1_0/gt_refclk.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/gt_quad_base_v1_0/interfaces/gt_refclk_v1_0/gt_refclk.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4c_uscaleplus:transceiver_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_drp:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_drp.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_drp.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4c_uscaleplus:ext_gtcom:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4c_usp_ext_gtcom.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4c_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_rbar:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4_rbar.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4c_uscaleplus:int_gtcom:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4c_usp_int_gtcom.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie4c_uscale_plus_v1_0/interfaces/pcie4c_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:s_axis_c2h_cmpt:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/s_axis_cmpt.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_cmpt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:h2c_byp_out:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/h2c_byp_out.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_out.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:tm_dsc_sts:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/tm_dsc_sts.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/tm_dsc_sts.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:m_axis_h2c:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/m_axis_h2c.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/m_axis_h2c.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:h2c_byp_in_st:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/h2c_byp_in_st.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/h2c_byp_in_st.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:s_axis_c2h:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/s_axis_c2h.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/s_axis_c2h.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:dsc_crdt_in:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/stm_v1_0/interfaces/dsc_crdt_in.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/qdma_v3_0/interfaces/dsc_crdt_in.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie_7x:transceiver_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_7x_v3_3/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/pcie_7x_v3_3/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:user:hsams_data_source_ctrl:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/hsams_data_source_ctrl.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/hsams_data_source_ctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_usp_rf_data_converter:cal_freeze_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/cal_freeze_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/cal_freeze_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_usp_rf_data_converter:drp_mon_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/drp_mon_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/drp_mon_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:user:hsams_data_sink_ctrl:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/hsams_data_sink_ctrl.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/hsams_data_sink_ctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_usp_rf_data_converter:rts_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/rts_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/rts_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_usp_rf_data_converter:debug_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/debug_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/debug_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_usp_rf_data_converter:nco_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/nco_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/nco_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_usp_rf_data_converter:diff_pins:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/diff_pins.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/usp_rf_data_converter_v2_2/interfaces/diff_pins.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:transceiver_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/transceiver_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:alignment:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/alignment.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/alignment.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:management:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/management.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/management.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:hard_fec:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/hard_fec.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/hard_fec.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:control_and_status:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/control_and_status.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/control_and_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:transceiver_monitor:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/transceiver_monitor.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/transceiver_monitor.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_cpri:configuration:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/configuration.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/cpri_v8_11/configuration.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:shared_logic_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/shared_logic_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/shared_logic_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:cntrl_status_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/cntrl_status_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/cntrl_status_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:gt_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/gt_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/gt_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:bypass_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/bypass_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/bypass_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:retransmission_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/retransmission_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/retransmission_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:lbus_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/lbus_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/lbus_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_interlaken:drp_ports_int:2.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/drp_ports_int.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/interlaken_v2_4/interfaces/drp_ports_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_quadsgmii:gt_xcvr_debug_io:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/quadsgmii_v3_4/gt_xcvr_debug_io.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/quadsgmii_v3_4/gt_xcvr_debug_io.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xhmc:transceiver_debug:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xhmc_v1_0/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xhmc_v1_0/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xhmc:in_system_ibert:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xhmc_v1_0/interfaces/in_system_ibert.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/xhmc_v1_0/interfaces/in_system_ibert.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_aurora:SIDEBAND_Pins_TX:1.0'. The one found in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/aurora_8b10b_v11_1/interfaces/SIDEBAND_Pins_TX.xml' will take precedence over the same Interface in location '/home/computador/Desktop/Xilinx/Vivado/2019.2/data/ip/xilinx/aurora_8b10b_v11_1/interfaces/SIDEBAND_Pins_TX.xml'
+INFO: [Common 17-14] Message 'IP_Flow 19-4830' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+update_ip_catalog: Time (s): cpu = 00:00:17 ; elapsed = 00:00:25 . Memory (MB): peak = 1996.352 ; gain = 493.648 ; free physical = 2008 ; free virtual = 9756
+Command: link_design -top top -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2240.648 ; gain = 0.000 ; free physical = 1771 ; free virtual = 9535
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.srcs/constrs_1/new/IO.xdc]
+Finished Parsing XDC File [/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.srcs/constrs_1/new/IO.xdc]
+Parsing XDC File [/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.srcs/constrs_1/new/constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2341.031 ; gain = 0.000 ; free physical = 1666 ; free virtual = 9431
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+11 Infos, 344 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2346.969 ; gain = 350.617 ; free physical = 1662 ; free virtual = 9427
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2411.000 ; gain = 64.031 ; free physical = 1656 ; free virtual = 9421
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2809.883 ; gain = 398.883 ; free physical = 1276 ; free virtual = 9056
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8902
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8902
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8902
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-1112] Starts optimizing BUFG(s) with a common MMCM/DPLL/XPLL driver.
+INFO: [Opt 31-1112] Starts optimizing BUFG(s) with a common driver.
+INFO: [Opt 31-1092] Phase BUFG optimization transformed 0 BUFG(s) to MBUFG(s).
+Phase 4 BUFG optimization | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8903
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8903
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8903
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8903
+Ending Logic Optimization Task | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1122 ; free virtual = 8903
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1121 ; free virtual = 8902
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1121 ; free virtual = 8902
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1121 ; free virtual = 8902
+Ending Netlist Obfuscation Task | Checksum: 140d6c399
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1121 ; free virtual = 8902
+INFO: [Common 17-83] Releasing license: Implementation
+31 Infos, 344 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2962.852 ; gain = 615.883 ; free physical = 1121 ; free virtual = 8902
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2962.852 ; gain = 0.000 ; free physical = 1121 ; free virtual = 8902
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2994.867 ; gain = 0.000 ; free physical = 1120 ; free virtual = 8902
+INFO: [Common 17-1381] The checkpoint '/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+Command: report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3097.355 ; gain = 0.000 ; free physical = 1079 ; free virtual = 8862
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: c99c1b55
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3097.355 ; gain = 0.000 ; free physical = 1079 ; free virtual = 8862
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3097.355 ; gain = 0.000 ; free physical = 1079 ; free virtual = 8862
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: c99c1b55
+
+Time (s): cpu = 00:00:00.65 ; elapsed = 00:00:00.22 . Memory (MB): peak = 3113.363 ; gain = 16.008 ; free physical = 1079 ; free virtual = 8862
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 114840b9d
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.35 . Memory (MB): peak = 3145.379 ; gain = 48.023 ; free physical = 1079 ; free virtual = 8863
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 114840b9d
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3145.379 ; gain = 48.023 ; free physical = 1079 ; free virtual = 8864
+Phase 1 Placer Initialization | Checksum: 114840b9d
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3145.379 ; gain = 48.023 ; free physical = 1079 ; free virtual = 8864
+
+Phase 2 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1079 ; free virtual = 8864
+Phase 2 Final Placement Cleanup | Checksum: 114840b9d
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3145.379 ; gain = 48.023 ; free physical = 1079 ; free virtual = 8864
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+Ending Placer Task | Checksum: c99c1b55
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.36 . Memory (MB): peak = 3145.379 ; gain = 48.023 ; free physical = 1079 ; free virtual = 8864
+INFO: [Common 17-83] Releasing license: Implementation
+48 Infos, 344 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1079 ; free virtual = 8864
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1079 ; free virtual = 8866
+INFO: [Common 17-1381] The checkpoint '/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.13 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1069 ; free virtual = 8854
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_placed.rpt -pb top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1074 ; free virtual = 8860
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+59 Infos, 344 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1074 ; free virtual = 8860
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1074 ; free virtual = 8861
+INFO: [Common 17-1381] The checkpoint '/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 68fbba99 ConstDB: 0 ShapeSum: 60a060bc RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 10d8466be
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1026 ; free virtual = 8813
+Post Restoration Checksum: NetGraph: bb43c764 NumContArr: 52409f5a Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 10d8466be
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1017 ; free virtual = 8805
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 10d8466be
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 985 ; free virtual = 8773
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 10d8466be
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 985 ; free virtual = 8773
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 982 ; free virtual = 8770
+Phase 2 Router Initialization | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 982 ; free virtual = 8770
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+ Number of Nodes with overlaps = 0
+Phase 3 Initial Routing | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+Phase 4.1 Global Iteration 0 | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+Phase 4 Rip-up And Reroute | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+Phase 5 Delay and Skew Optimization | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+Phase 6.1 Hold Fix Iter | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+Phase 6 Post Hold Fix | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8770
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8769
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8769
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: cccb4acd
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 981 ; free virtual = 8769
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1006 ; free virtual = 8795
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+68 Infos, 344 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1004 ; free virtual = 8793
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1004 ; free virtual = 8793
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3145.379 ; gain = 0.000 ; free physical = 1003 ; free virtual = 8794
+INFO: [Common 17-1381] The checkpoint '/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+Command: report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+Command: report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+Command: report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+80 Infos, 344 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file top_route_status.rpt -pb top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file top_timing_summary_routed.rpt -pb top_timing_summary_routed.pb -rpx top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file top_bus_skew_routed.rpt -pb top_bus_skew_routed.pb -rpx top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: write_bitstream -force top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC ZPS7-1] PS7 block required: The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] '/home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Tue May 31 20:03:07 2022. For additional details about this file, please refer to the WebTalk help file at /home/computador/Desktop/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+100 Infos, 345 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 3489.059 ; gain = 235.051 ; free physical = 956 ; free virtual = 8778
+INFO: [Common 17-206] Exiting Vivado at Tue May 31 20:03:07 2022...

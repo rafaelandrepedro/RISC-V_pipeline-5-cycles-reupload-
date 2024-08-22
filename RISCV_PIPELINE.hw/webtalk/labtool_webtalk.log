@@ -1,0 +1,9 @@
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/computador/Desktop/Xilinx/RISCV_PIPELINE/RISCV_PIPELINE.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.74 ; elapsed = 00:00:06 . Memory (MB): peak = 376.871 ; gain = 0.000 ; free physical = 2703 ; free virtual = 11145
+INFO: [Common 17-206] Exiting Webtalk at Fri May 27 23:15:09 2022...
